@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.titulo {
+    color: gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.subTitulo {
+    color: gold;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.contenedorImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImg img {
+    margin: 50px;
+
+}
+
+.barcelona {
+    width: 100px;
+    height: auto;
+}
+
+.depQuito {
+    width: 150px;
+    height: auto;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendario {
+    color: blue;
+}
+
+.fila {
+    color: #ddd;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
